@@ -1,0 +1,139 @@
+body {
+	background: #2D2722 url(../images/img01.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #3C3D3F;
+}
+
+#wrapper {
+	background: url(../images/img04.jpg) no-repeat left 400px;
+}
+
+#logo {
+	margin-top: 40px;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	font-size: 3.8em;
+	color: #2B2522;
+	text-shadow: 2px 2px 2px #000;
+}
+
+#menu {
+	margin-top: 50px;
+}
+#content_menu {
+	margin-left: 108px;
+}
+
+#menu ul {
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	padding: 8px 25px;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+	border: none;
+	background: #4B402E;
+}
+
+#menu a:hover {
+	color: #93BD41;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+	color: #93BD41;
+}
+
+#mision {
+	font: normal 14px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #665E5A;
+	height: 80px;
+}
+
+.page_content {
+	background: #FFF;
+	min-height: 1180px;
+	margin-bottom: 100px;
+}
+
+.content {
+	padding: 20px;
+}
+
+.content .title {
+	text-align: center;
+}
+
+.content .text {
+	font-size: 14px;
+	text-align: justify;
+}
+
+.content .text span {
+	color: #93BD41;
+	font-weight: bold;
+}
+
+.content .user_info {
+	font-weight: bold;
+	height: 50px;
+}
+
+.content .user_info #welcome {
+	font-size: 18px;
+	color: #2B2522;
+	text-shadow: 1px 1px 1px #000;
+	float: left;
+}
+
+#welcome span {
+	color: #93BD41;
+	font-weight: bold;
+}
+
+.content .user_info #logout {
+	font-size: 16px;
+	text-shadow: 1px 1px 1px #000;
+	float: right;
+}
+
+#logout a {
+	color: #2B2522;
+}
+
+#logout a:hover {
+	color: #93BD41;
+}
+
+#footer {
+	height: 50px;
+}
+
+#footer p {
+	line-height: normal;
+	font-size: 10px;
+	text-align: center;
+	color: #847F7E;
+}
+
+#footer a {
+	color: #847F7E;
+}
+
+#footer a:hover {
+	color: #FFF;
+}
