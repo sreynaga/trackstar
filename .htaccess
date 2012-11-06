@@ -2,6 +2,8 @@
 # un virtual host o creo que cuando este en linea
 # NOTA: En el virtual host debo tener los AllorOverride
 # en All los dos primeros.
+# Archivo config.php:
+# $config['base_url']	= 'http://sr-www.trackstart.com/';
 
 RewriteEngine on
 RewriteCond $1 !^(index\.php|images|css|js|robots\.txt)
@@ -9,6 +11,8 @@ RewriteRule ^(.*)$ /index.php/$1 [L]
 
 # Archivo htaccess de esta forma es para cuando uso 
 # localhost dentro de una carpeta en el www
+# Archivo config.php:
+# $config['base_url']	= 'http://localhost/trackstart/';
 
 #RewriteEngine on
 #RewriteCond $1 !^(index\.php|images|css|js|robots\.txt)
