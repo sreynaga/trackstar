@@ -40,7 +40,7 @@
 				</div>
 				<div class="link_retry_password">
 					<?php
-						echo anchor('users/retry_password', 'Recuperar contraseña', array('title' => 'Recuperar contraseña'));
+						echo anchor('users/retry-password', 'Recuperar contraseña', array('title' => 'Recuperar contraseña'));
 					?>
 				</div>
 			</div>

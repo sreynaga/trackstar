@@ -33,7 +33,7 @@ class Users extends CI_Controller {
 	}
 
 	public function retry_password() {
-		
+		echo "Retry Password";
 	}
 
 	public function verify_login() {

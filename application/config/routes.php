@@ -41,6 +41,11 @@
 $route['default_controller'] = "users";
 $route['404_override'] = '';
 
+/*
+* Mis propias rutas
+*/
+$route['users/retry-password'] = "users/retry_password";
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
