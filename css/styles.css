@@ -68,6 +68,9 @@ body {
 	background: #FFF;
 	min-height: 1180px;
 	margin-bottom: 100px;
+	-moz-box-shadow: 0px 0px 10px #000; 
+	-webkit-box-shadow: 0px 0px 10px #000; 
+	box-shadow: 0px 0px 10px #000;
 }
 
 .content {
@@ -86,6 +89,7 @@ body {
 .content .text span {
 	color: #93BD41;
 	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
 }
 
 .content .user_info {
@@ -101,8 +105,12 @@ body {
 }
 
 #welcome span {
-	color: #93BD41;
+	color: #2d2722;
 	font-weight: bold;
+}
+
+#welcome span:hover {
+	color: #93BD41;
 }
 
 .content .user_info #logout {
