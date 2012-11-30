@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://sr-www.trackstart.com/';
+$config['base_url']	= 'http://sr-ts.www.trackstart.com/';
 
 /*
 |--------------------------------------------------------------------------
